@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 242, 245);
+    
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 5px 5px gray;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.header-left img {
+    width: 70px;
+    border-radius: 50px;
+    background-color: transparent;
+
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.Search input {
+    border: none;
+    outline: none;
+    padding: 6px;
+    margin-left: 2px;
+
+}
+
+.header-middle {
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+    justify-content: space-between;
+    background-color: transparent;
+
+}
+
+.header-middle i {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px;
+    font-size: x-large;
+    color: gray;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-middle .active {
+    color: blue;
+}
+
+.header-middle i:hover {
+    color: blue
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.header-right i {
+    margin: 12px;
+    color: gray;
+    font-size: x-large;
+    background-color: transparent;
+    cursor: pointer;
+}
+.header-right img {
+    width: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.header-right i:hover {
+    color: blue;
+}
+
+/* main page start*/
+.main-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* side bar start */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.user-info img {
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.user-info h2 {
+    margin-left: 10px;
+
+}
+
+.sidebar-row {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.sidebar-row i {
+    background-color: transparent;
+
+}
+
+.sidebar-row h4 {
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.sidebar-row:hover {
+    background-color: rgb(170, 164, 164);
+}
+/* side bar end */
+
+
+.reel {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 600px;
+    border-radius: 15px;
+}
+/* world page start */
+
+.world-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user-bg img {
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.story1 {
+    background-image: url(./Fahad\ bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 130px;
+    border-radius: 8px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.story1:hover {
+    transform: scale(1.07);
+
+}
+
+.story2 {
+
+    background-image: url(./fakhar\ bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 130px;
+    border-radius: 8px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.story2:hover {
+    transform: scale(1.07);
+
+}
+
+.story3 {
+
+    background-image: url(./Mishi\ bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 130px;
+    border-radius: 8px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.story3:hover {
+    transform: scale(1.07);
+
+}
+
+.story4 {
+
+    background-image: url(./Noman\ iqbal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 130px;
+    border-radius: 8px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.story4:hover {
+    transform: scale(1.07);
+
+}
+
+.user-bg h4 {
+    background-color: transparent;
+    margin-top: 115px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.user-bg {
+    padding: 10px 0;
+    margin: 10px;
+}
+
+/* world page end */
+
+/* message sender start */
+
+.messageSender {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    height: 150px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.messageSender-top {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(156, 151, 151);
+    margin-top: 10px;
+
+}
+
+.messageSender-top img {
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+
+.messageSender-top input {
+    margin-left: 6px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 6px;
+    outline: none;
+}
+
+.messageSender-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.messegeSender-option {
+    display: flex;
+    align-items: center;
+    color: rgba(128, 128, 128, 0.871);
+}
+
+.messegeSender-option i {
+    background-color: white;
+}
+
+.messegeSender-option h4 {
+    margin-left: 10px;
+    background-color: white;
+}
+
+/* message sender end */
+
+
+/* Post start */
+.posts {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.postInfo {
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.postInfo h4 {
+    background-color: white;
+}
+
+.postInfo p {
+    background-color: white;
+}
+
+.postDetails {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.postImg img {
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.bottomIcon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+.bottomIcon h4 {
+    margin-left: 8px;
+}
+
+.shairi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+/* Post end */
+
+/* Right bar start */
+
+.Right-bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 20%;
+   
+}
+
+.TopInfo {
+    display: flex;
+    height: 30px;
+}
+
+.TopInfo span {
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-evenly;
+}
+
+.TopInfo span i {
+    display: flex;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.TopInfo span i:hover {
+    color: blue;
+   
+}
+.userContacts{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    
+}   
+.Contacts{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+.Contacts:hover{
+    background-color: gray;
+    transform: scale(1.1);
+
+}
+.Contacts img{
+    width: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+.Contacts h4{
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+/* Right bar end */
+
+
